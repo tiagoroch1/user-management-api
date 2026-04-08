@@ -1,7 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 from flask import Flask, render_template
 from config import Config
-from database.db import db
-from routes.usuario_routes import usuario_bp
+from api_usuarios.database.db import db
+from api_usuarios.routes.usuario_routes import usuario_bp
 
 app = Flask(__name__)
 app.config.from_object(Config)

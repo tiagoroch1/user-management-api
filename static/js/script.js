@@ -14,13 +14,13 @@ function carregarUsuarios() {
 
             div.innerHTML = `
                 <div class="info">
-                    <strong>${u.nome}</strong>
-                    <span>${u.email}</span>
+                    <span><strong>Nome:</strong> ${u.nome}</span>
+                    <span><strong>Email:</strong> ${u.email}</span>
                 </div>
 
                 <div class="acoes">
                     <button class="edit" onclick="editar('${u.id}', '${u.nome}', '${u.email}')">Editar</button>
-                    <button onclick="deletar('${u.id}')">Excluir</button>
+                    <button class="excluir" onclick="deletar('${u.id}')">Excluir</button>
                 </div>
             `;
 

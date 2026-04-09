@@ -7,7 +7,7 @@ from config import Config
 from api_usuarios.database.db import db
 from api_usuarios.routes.usuario_routes import usuario_bp
 
-app = Flask(__name__, static_folder='static', template_folder='templates')
+app = Flask(__name__)
 app.config.from_object(Config)
 
 db.init_app(app)

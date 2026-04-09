@@ -26,7 +26,7 @@ O projeto permite criar, listar, atualizar e deletar usuários de forma simples 
 ## 🌐 Deploy
 
 🔗 Acesse o sistema:
-https://user-management-api-vulc.onrender.com
+https://user-management-api-vulc.onrender.com/
 
 
 ## ⚠️ Observação

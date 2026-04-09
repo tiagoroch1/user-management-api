@@ -1,106 +1,80 @@
 # 🚀 User Management API
 
-API REST desenvolvida com Flask para gerenciamento de usuários, permitindo operações de CRUD (Create, Read, Update, Delete), com integração a banco de dados e interface web simples.
+## 📌 Sobre o Projeto
+
+API para gerenciamento de usuários desenvolvida com Flask, incluindo interface web para interação com os dados.
+
+O projeto permite criar, listar, atualizar e deletar usuários de forma simples e eficiente.
 
 ---
 
-## 📌 Funcionalidades
-
-* ✅ Criar usuário
-* ✅ Listar usuários
-* ✅ Atualizar usuário
-* ✅ Deletar usuário
-* ✅ Interface web integrada
-
----
-
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * Python
 * Flask
-* SQLAlchemy
-* HTML
-* CSS
-* JavaScript
+* Flask-SQLAlchemy
+* HTML, CSS e JavaScript
+* Gunicorn (produção)
 
 ---
 
-## ▶️ Como rodar o projeto
+## 🌐 Deploy
 
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/tiagoroch1/user-management-api.git
-```
-
-### 2. Entrar na pasta
-
-```bash
-cd user-management-api
-```
-
-### 3. Criar ambiente virtual
-
-```bash
-python -m venv venv
-```
-
-### 4. Ativar o ambiente
-
-**Windows:**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux/Mac:**
-
-```bash
-source venv/bin/activate
-```
-
-### 5. Instalar dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6. Rodar a aplicação
-
-```bash
-python app.py
-```
+https://user-management-api-vulc.onrender.com
 
 ---
 
-## 🌐 Acesso
+## ⚠️ Observação
 
-Abra no navegador:
+Este projeto está hospedado no plano gratuito do Render.
+A aplicação pode levar alguns segundos para iniciar ao ser acessada pela primeira vez.
 
-```
-http://127.0.0.1:5000
-```
+---
+
+## 🧪 Funcionalidades
+
+* ✅ Criar usuários
+* ✅ Listar usuários
+* ✅ Atualizar usuários
+* ✅ Deletar usuários
 
 ---
 
 ## 🔗 Endpoints da API
 
-| Método | Rota           | Descrição         |
-| ------ | -------------- | ----------------- |
-| GET    | /usuarios      | Listar usuários   |
-| POST   | /usuarios      | Criar usuário     |
-| PUT    | /usuarios/<id> | Atualizar usuário |
-| DELETE | /usuarios/<id> | Deletar usuário   |
+```http
+GET /usuarios
+POST /usuarios
+PUT /usuarios/<id>
+DELETE /usuarios/<id>
+```
 
 ---
 
-## 💼 Sobre o projeto
+## 📷 Preview
 
-Este projeto foi desenvolvido com foco em prática de desenvolvimento backend utilizando Flask, construção de APIs RESTful e integração com frontend simples.
+(Coloque aqui um print da sua aplicação rodando)
+
+---
+
+## ⚙️ Como rodar o projeto localmente
+
+```bash
+# Clonar o repositório
+git clone https://github.com/tiagoroch1/user-management-api.git
+
+# Entrar na pasta
+cd user-management-api
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar o projeto
+python app.py
+```
 
 ---
 
 ## 👨‍💻 Autor
 
-Tiago Rocha
-🔗 https://github.com/tiagoroch1
+Desenvolvido por Tiago Rocha
